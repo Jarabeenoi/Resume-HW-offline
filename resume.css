@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
+
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Source Sans Pro', sans-serif;
+   
+}
+
+.container{
+   width: 80%;
+   /* height: 100vh; */
+   margin: 0 auto;
+   background-color: whitesmoke; 
+}
+
+.top-header{
+   display: flex;
+   background-color:pink;
+   padding: 10px 0;
+   /* border: 1px solid; */
+   
+}
+
+.photo{
+   width: 50%;
+   display: flex;
+   justify-content: center;
+   /* border: 1px solid; */
+}
+
+.photo img{
+   width: 30%;
+   border-radius: 30px;
+   border: 2px solid white;
+}
+
+.top-header-text{
+   width: 50%;
+   padding: 30px;
+  
+}
+
+.top-header-text p {
+   font-size: 20px;
+   font-weight: 600;
+   color: white;
+}
+
+.section-box{
+   width: 100%;
+   display: flex;
+   margin-top: 30px;
+}
+
+.left-box{
+   width: 50%;
+   /* height: 100vh; */
+   /* background-color:whitesmoke; */
+}
+
+.work {
+   width: 100%;
+   margin: 10px auto;
+   border: 1px solid lightgray;
+}
+
+
+.education {
+   width: 100%;
+   margin: 30px auto;
+   border: 1px solid lightgray;
+}
+
+.work1 {
+   padding: 10px;
+   background-color: white;
+}
+
+
+
+.work1-head-text,
+.education-text{
+   font-size: 1.5rem;
+   text-transform: uppercase;
+   padding-bottom: 5px;
+}
+.years{
+   width: 100px;
+}
+
+.years-position,
+.years-education{
+   display: flex;
+}
+
+.position,
+.faculty {
+   /* padding-left: 20px; */
+}
+
+.work2,
+.work3 {
+   padding: 10px;
+   background-color: #f4f4f4;
+}
+
+
+.education1 {
+   padding: 10px;
+   margin: 10px auto;
+   background-color:  #f4f4f4;
+}
+
+
+/* right-box */
+.right-box{
+   width: 50%;
+  
+}
+
+.right-box-group{
+   width: 90%;
+   /* height: 100%; */
+   margin: 10px auto;
+   /* padding: 10px; */
+   background-color: #f4f4f4;
+   border: 1px solid lightgray;
+}
+
+.profile-icon,
+.skill,
+.hobby-icons {
+   font-size: 1.5rem;
+   text-transform: uppercase;
+   padding: 10px;
+}
+
+.skill-icons {
+   display: flex;
+   justify-content: space-around;
+}
+
+.skill-icons1,
+.skill-icons2,
+.skill-icons3 {
+   text-align: center;
+   padding-top: 10px;
+}
+
+.skill-icons1 i{
+   font-size: 2rem;
+   color: orangered;
+}
+
+.skill-icons2 i{
+   font-size: 2rem;
+   color: rgb(36, 36, 243);
+}
+
+.skill-icons3 i{
+   font-size: 2rem;
+   color: rgb(250, 192, 1);
+}
+
+
+.hobby-icons{
+   padding: 10px;
+}
+
+.profile-text{
+   padding: 10px;
+}
+
+
+
+.hobby-items {
+   display: flex;
+   justify-content: space-around;
+   font-size: 1.5rem;
+}
+
+.hobby-items1 {
+   text-align: center;
+   padding-bottom: 20px;
+  
+}
+
+
+.hobby-items p{
+   font-size: 1rem;
+   
+}
